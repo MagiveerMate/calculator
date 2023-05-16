@@ -1,0 +1,46 @@
+button {
+    width: 50px;
+    height: 50px;
+    background-color: #f2f2f2;
+    border: none;
+    margin: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  button:hover {
+    background-color: cyan;
+  }
+  
+  button:active {
+    transform: scale(1.95);
+  }
+  input:active {
+    transform: scale(1.5);
+  }
+  #display {
+    width: 212px;
+    height: 50px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    text-align: right;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  .move{
+    text-align: center;
+  }
+  #calculator {
+    width: 25%;
+    margin: 50px auto;
+    border: 1px solid gray;
+    border-radius: 10%;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+  }
+  body{
+    background-color: black;
+  }
